@@ -165,11 +165,7 @@ export default class CameraScreenBase extends Component {
             style={styles.captureButton}
             source={this.props.captureButtonImage}
             resizeMode={'contain'}
-          >
-            <Text style={styles.captureNumber}>
-              {this.numberOfImagesTaken()}
-            </Text>
-          </Image>
+          />
         </TouchableOpacity>
       </View >
   }
