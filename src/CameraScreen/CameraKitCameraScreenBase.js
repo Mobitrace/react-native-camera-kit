@@ -239,7 +239,7 @@ export default class CameraScreenBase extends Component {
 
   renderBottomButtons() {
     return (
-      <View style={[styles.bottomButtons, {backgroundColor: '#ffffff00'}]}>
+      <View style={[styles.bottomButtons, {backgroundColor: 'rgba(0,0,0,0.5)'}]}>
         {this.renderBottomButton('left')}
         {this.renderCaptureButton()}
         {this.renderBottomButton('right')}
