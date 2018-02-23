@@ -287,7 +287,7 @@ import styleObject from './CameraKitCameraScreenStyleObject';
 const styles = StyleSheet.create(_.merge(styleObject, {
   textStyle: {
     color: 'white',
-    fontSize: 20
+    fontSize: 15
   },
   ratioBestText: {
     color: 'white',
