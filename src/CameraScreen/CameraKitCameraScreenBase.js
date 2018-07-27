@@ -100,7 +100,7 @@ export default class CameraScreenBase extends Component {
         <Image
           style={{ flex: 1, justifyContent: 'center' }}
           source={this.state.flashData.image}
-          resizeMode="contain"
+          resizeMode={Image.resizeMode.contain}
         />
       </TouchableOpacity>
   }
@@ -111,7 +111,7 @@ export default class CameraScreenBase extends Component {
         <Image
           style={{ flex: 1, justifyContent: 'center' }}
           source={this.props.cameraFlipImage}
-          resizeMode="contain"
+          resizeMode={Image.resizeMode.contain}
         />
       </TouchableOpacity>
   }
