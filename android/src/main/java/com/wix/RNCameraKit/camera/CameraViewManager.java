@@ -5,7 +5,7 @@ import android.graphics.PixelFormat;
 import android.graphics.Point;
 import android.hardware.Camera;
 import android.hardware.SensorManager;
-import android.support.annotation.IntRange;
+import androidx.annotation.IntRange;
 import android.view.Display;
 import android.view.OrientationEventListener;
 import android.view.WindowManager;
